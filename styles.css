@@ -92,7 +92,9 @@ header {
 .content {
   display: flex;
   flex-direction: row;
+  
   margin-bottom: 35px;
+  column-gap: 15px;
 }
 
 .section-three {
