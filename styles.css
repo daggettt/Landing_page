@@ -39,11 +39,17 @@ header {
   align-items: center;
   flex: 1;
   padding: 0 50px;
-  
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 250px;
 }
 
 .title {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   color: #F9FAF8;
   padding: 40px 0 10px 0;
@@ -52,29 +58,106 @@ header {
 .button {
   background-color: #3882F6;
   width: fit-content;
-  padding: 2px;
+  margin:15px 0px;
+  padding: 4px 10px;
   border-radius: 5px;
+  color: #F9FAF8;
+}
+
+.text {
+  color: #E5E7EB;
 }
 
 .bird-pic {
-  width: 200px;
+  width: 250px;
 }
 
 .section-two {
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   flex: 1;
+  padding: 0 50px;
+}
+
+.title-two {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #1f2937;
+  padding: 20px 20px 10px 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 35px;
 }
 
 .section-three {
   background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
   flex: 1;
+  padding: 50px 65px;
+}
+
+.quote {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  font-style: italic;
+}
+
+.thor {
+  display: flex;
+  justify-content: right;
+  margin-right:30px;
 }
 
 .section-four {
   background-color: white;
+  display: flex;
+  flex-direction: column;
   flex: 1;
+  padding: 30px 65px;
+}
+
+.call {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 7px;
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.left-call {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.call-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.button2 {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #3882F6;
+  
 }
 
 footer {
   background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  color: #E5E7EB;
+  padding: 10px;
 }
